@@ -2,14 +2,11 @@
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 0.75rem;
   line-height: 1.42857143;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -18,11 +15,23 @@
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
 
   &--default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
+    color: $white-color;
+    background-color: $brand-color;
+
+    &:hover {
+      color: $white-color;
+      background-color: $dark-blue-color;
+    }
+
+    &.disabled,
+    &[disabled] {
+      background: $light-gray-color;
+      color: $medium-gray-color;
+    }
   }
 
   // btn--primary, --success, --info, --warning, --danger, --link
