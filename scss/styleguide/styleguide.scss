@@ -102,12 +102,8 @@
         margin-bottom: 10px;
       }
 
-      &.brand-color:before {
-        background: $brand-color;
-      }
-
-      &.font-color:before {
-        background: $font-color;
+      &.black-color:before {
+        background: $black-color;
       }
 
       &.dark-gray-color:before {
@@ -122,20 +118,19 @@
         background: $light-gray-color;
       }
 
-      &.accent-red-color:before {
-        background: $accent-red-color;
+      &.red-color:before {
+        background: $red-color;
+      }
+      &.green-color:before {
+        background: $green-color;
       }
 
-      &.accent-blue-color:before {
-        background: $accent-blue-color;
+      &.blue-color:before {
+        background: $blue-color;
       }
 
-      &.accent-purple-color:before {
-        background: $accent-purple-color;
-      }
-
-      &.accent-orange-color:before {
-        background: $accent-orange-color;
+      &.light-blue-color:before {
+        background: $light-blue-color;
       }
     }
   }

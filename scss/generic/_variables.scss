@@ -1,19 +1,22 @@
 //Colors
-$brand-color: #00205B;
 
+$black-color: #131313;
+$white-color: #fff;
 $dark-gray-color: #737378;
 $medium-gray-color: #ddd;
 $light-gray-color: #f8f8f8;
 
-$accent-blue-color: blue;
-$accent-red-color: red;
-$accent-purple-color: purple;
-$accent-orange-color: orange;
+$blue-color: #00205B;
+$light-blue-color: #0095c8;
+$red-color: #C8102E;
+$green-color: #78be20;
 
 //Colors in action
+$brand-color: $blue-color;
 $border-color: $medium-gray-color;
 $link-color: $brand-color;
-$font-color: #131313;
+$link-hover-color: $red-color;
+$font-color: $black-color;
 
 //TODO verify if needed
 //$error-color: #d04335;
@@ -30,4 +33,4 @@ $tablet-gutter: 30px;
 
 //Fonts
 $ff-gotham: "Gotham", "Arial", sans-serif;
-$base-font: normal 16px/1.4 $ff-gotham;
+$base-font: 300 16px/1.5 $ff-gotham;
