@@ -1,0 +1,43 @@
+.table {
+  font-size: 0.875em;
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+
+  tbody {
+    tr:nth-of-type(2n+1) {
+      background: $light-gray-color;
+    }
+
+    tr:hover,
+    tbody tr:nth-of-type(2n+1):hover, {
+      background: #737378;
+      color: white;
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+
+  tr {
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+  }
+
+  th, td {
+    padding: 0.4em 0.7em;
+    border: 1px solid #DDD;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  &--striped {
+
+  }
+
+  &--bordered {
+
+  }
+}

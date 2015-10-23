@@ -1,0 +1,14 @@
+body {
+  font: $base-font;
+}
+
+a {
+  color: $brand-color;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+table {
+  margin: 0 0 1em;
+}

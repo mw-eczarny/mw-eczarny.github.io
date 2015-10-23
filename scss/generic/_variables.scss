@@ -1,0 +1,32 @@
+//Colors
+$brand-color: #00205B;
+
+$dark-gray-color: #333;
+$medium-gray-color: #ddd;
+$light-gray-color: #f8f8f8;
+
+$accent-blue-color: blue;
+$accent-red-color: red;
+$accent-purple-color: purple;
+$accent-orange-color: orange;
+
+//Colors in action
+$border-color: $medium-gray-color;
+$link-color: $brand-color;
+
+//TODO verify if needed
+//$error-color: #d04335;
+//$success-color: #88DF88;
+
+//Breakpoints
+$tablet-start:         721px!default;
+$desktop-start:        1024px!default;
+$desktop-wide-start:   1180px!default;
+
+//Grid
+$gutter: 50px;
+$tablet-gutter: 30px;
+
+//Fonts
+$ff-gotham: "Gotham", "Arial", sans-serif;
+$base-font: normal 16px/1.4 $ff-gotham;
