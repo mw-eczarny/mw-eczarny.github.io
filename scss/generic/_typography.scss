@@ -38,5 +38,9 @@ h5, .small-heading {
 }
 
 .medium-text {
-  font: $medium-text;
+  font-size: $medium-text;
+}
+
+.small-text {
+  font-size: $small-text;
 }
