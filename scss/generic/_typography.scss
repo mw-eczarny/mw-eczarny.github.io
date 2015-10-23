@@ -1,5 +1,6 @@
 body {
   font: $base-font;
+  color: $font-color;
 }
 
 a {
@@ -12,3 +13,25 @@ a {
 table {
   margin: 0 0 1em;
 }
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.35em;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.875em; }

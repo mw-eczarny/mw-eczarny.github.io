@@ -106,6 +106,10 @@
         background: $brand-color;
       }
 
+      &.font-color:before {
+        background: $font-color;
+      }
+
       &.dark-gray-color:before {
         background: $dark-gray-color;
       }
