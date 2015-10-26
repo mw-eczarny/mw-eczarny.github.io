@@ -3,6 +3,7 @@
   width: 100%;
   position: relative;
   overflow: scroll;
+  border-top: 1px solid $border-color;
 
   tbody {
     tr:nth-of-type(2n+1) {
@@ -24,11 +25,25 @@
     -webkit-transition: all 0.15s ease-in-out;
     -moz-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
+
+
+    &.border-dotted {
+      td, th {
+        border-bottom: 1px dashed $dark-gray-color;
+      }
+    }
+
+    &.border-heavy {
+      td, th {
+        border-bottom: 2px solid $dark-gray-color;
+      }
+    }
   }
 
   th, td {
     padding: 0.4em 0.7em;
     border: 1px solid #DDD;
+    border-top: none;
     text-align: left;
     font-weight: 400;
   }
@@ -40,4 +55,9 @@
   &--bordered {
 
   }
+}
+
+.table-container {
+  overflow: auto;
+  width: 100%;
 }
