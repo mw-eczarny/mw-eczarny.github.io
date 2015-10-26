@@ -1,0 +1,11 @@
+.error-msg {
+  display: inline-block;
+  background: $error-color;
+  color: $white-color;
+  margin: 0.5em 0 0;
+  padding: 10px 14px 9px;
+  min-height: 40px;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+  border-radius: 4px;
+}

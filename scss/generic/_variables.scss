@@ -19,10 +19,8 @@ $link-color: $blue-color;
 $link-hover-color: $red-color;
 $font-color: $black-color;
 $font-gray-color: $dark-gray-color;
-
-//TODO verify if needed
-//$error-color: #d04335;
-//$success-color: #88DF88;
+$error-color: $red-color;
+$success-color: $green-color;
 
 //Breakpoints
 $tablet-start:         721px!default;

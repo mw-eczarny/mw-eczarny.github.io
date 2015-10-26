@@ -3,9 +3,12 @@
 @import "generic/helpers";
 @import "generic/typography";
 @import "generic/normalize";
+
 @import "base/grid";
 @import "base/btn";
 @import "base/table";
+@import "base/form";
+@import "base/error-msg";
 
 @import "vendor/rwd-table";
 @import "vendor/bootstrap-dropdown";

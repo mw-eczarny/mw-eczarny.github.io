@@ -342,14 +342,21 @@
                 <h2>Form Elements</h2>
             </div>
             <div class="sg-unit__body">
-                <form class="base-form">
-                    <fieldset>
-                        <label for="text">Text Input</label>
-                        <input id="text" type="text" placeholder="Text Input">
-                        <br>
-                        <label for="password">Password</label>
-                        <input id="password" type="password" placeholder="Type your Password">
-                        <br>
+                <form class="form">
+                    <fieldset class="form__fieldset">
+                        <div class="form__row">
+                            <label for="text">Text Input</label>
+                            <input id="text" type="text" placeholder="Text Input">
+                        </div>
+                        <div class="form__row">
+                            <label for="text">Text Input with error message</label>
+                            <input id="text" class="error" type="text" placeholder="Text Input"><br>
+                            <span class="error-msg">Skriv inn et gyldig telefonnummer</span>
+                        </div>
+                        <div class="form__row">
+                            <label for="password">Password</label>
+                            <input id="password" type="password" placeholder="Type your Password">
+                        </div>
                         <label for="textarea">Textarea</label>
                         <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
                         <br>

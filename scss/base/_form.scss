@@ -1,0 +1,40 @@
+.form {
+  label {
+    display: block;
+    font-weight: 500;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  input[type=search],
+  input[type=number],
+  textarea {
+    border: 1px solid $dark-gray-color;
+    border-radius: 4px;
+    min-height: 36px;
+    padding: 0 14px;
+
+    &.error {
+      border-color: $error-color;
+    }
+  }
+
+  textarea {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__fieldset {
+    border: 1px solid $border-color;
+    background: $light-gray-color;
+    padding: 14px;
+    min-width: 0;
+  }
+
+  &__row {
+    margin-bottom: 2em;
+  }
+}
